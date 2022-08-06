@@ -13,6 +13,7 @@ if (mysqli_connect_errno()) {
 	echo"Error number".mysqli_connect_errno();
 	echo"<br/>";
 	echo"Error Message".mysqli_connect_error();
-	die("Databse Connection Error");
+	die("Databse Connection Error.");
+	//THis is comment.
 }
 ?>	
